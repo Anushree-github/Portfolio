@@ -11,9 +11,9 @@
   $(document).on('click', '.nav-menu a, .mobile-nav a', function(e) {
     var name = document.getElementById('home_name')
     if (document.getElementById('js_home_class').classList.contains('active')) {
-      name.innerHTML = 'Jyotiraditya Singh Rathore'
+      name.innerHTML = 'Anushree Raipat'
     } else { 
-      name.innerHTML = 'Jyotiraditya'
+      name.innerHTML = 'Anushree'
     }
 
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -164,9 +164,9 @@
   $(document).on('click', '.nav-menu a, .mobile-nav a', function(e) {
     var name = document.getElementById('home_name')
     if (document.getElementById('js_home_class').classList.contains('active')) {
-      name.innerHTML = 'Jyotiraditya Singh Rathore'
+      name.innerHTML = 'Anushree'
     } else { 
-      name.innerHTML = 'Jyotiraditya'
+      name.innerHTML = 'Anushree'
     }
   });
 
