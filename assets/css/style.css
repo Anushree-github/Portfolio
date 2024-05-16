@@ -12,7 +12,7 @@ body::before {
   content: "";
   position: fixed;
   /* background: #a987bcd5 !important; */
-  background-color: #a987bcd5;
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
   left: 0;
@@ -1128,4 +1128,14 @@ section .container {
     right: 0;
     transform: translateX(-50%);
   }
+}
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%; /* Adjust as needed */
+}
+
+.carousel-inner .item {
+  text-align: center;
 }
